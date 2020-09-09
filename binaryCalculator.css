@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, #544a7d, #ffd452);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    font-size: 50px;
+    margin-left: 29.5%;
+    margin-top: 10%;
+    background: -webkit-linear-gradient(#202000, #55EFC4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#res {
+    /* background-color: lightgray; */
+    border: solid #000000;
+    color: #ffd452;
+    height: 48px;
+    font-size: 20px;
+    width: 423px;
+    text-align: right;
+    margin-left: 30%;
+    background-image: linear-gradient(to left, #000000, #2D3436);
+    border-radius: 10px;
+}
+
+#btns {
+    height: 50px;
+    font-size: 18px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.row {
+    margin-bottom: 2%;
+}
+
+button {
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+#btns .buttonClass {
+    width: 20%;
+}
+
+#btn0,
+#btn1 {
+    background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
+    color: green;
+    padding-left: 2.65em;
+    padding-right: 2.65em;
+    font-size: 1em;
+}
+
+#btnClr,
+#btnEql {
+    background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
+    color: white;
+    padding-left: 2.65em;
+    padding-right: 2.65em;
+    font-size: 1em;
+}
+
+#btnSum,
+#btnMul,
+#btnDiv,
+#btnSub {
+    color: rgb(1, 247, 206);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1em;
+    background-image: linear-gradient(to right, #e96443 0%, #904e95 51%, #e96443 100%);
+}
