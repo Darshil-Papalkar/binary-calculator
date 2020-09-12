@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #544a7d, #ffd452);
+    background-color: #0f0f0f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -12,13 +12,10 @@ body {
     font-size: 50px;
     margin-left: 29.5%;
     margin-top: 10%;
-    background: -webkit-linear-gradient(#202000, #55EFC4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(67, 168, 67);
 }
 
 #res {
-    /* background-color: lightgray; */
     border: solid #000000;
     color: #ffd452;
     height: 48px;
@@ -26,7 +23,7 @@ body {
     width: 423px;
     text-align: right;
     margin-left: 30%;
-    background-image: linear-gradient(to left, #000000, #2D3436);
+    background-image: linear-gradient(to left, #3a3636, #2D3436);
     border-radius: 10px;
 }
 
@@ -53,18 +50,18 @@ button {
 
 #btn0,
 #btn1 {
-    background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
-    color: green;
-    padding-left: 2.65em;
+    background-image: linear-gradient(to right, black 0%, azure 51%, black 100%);
+    color: black;
+    padding-left: 2.5em;
     padding-right: 2.65em;
     font-size: 1em;
 }
 
 #btnClr,
 #btnEql {
-    background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
-    color: white;
-    padding-left: 2.65em;
+    background-image: linear-gradient(to right, black 0%, azure 51%, black 100%);
+    color: black;
+    padding-left: 2.5em;
     padding-right: 2.65em;
     font-size: 1em;
 }
@@ -73,9 +70,9 @@ button {
 #btnMul,
 #btnDiv,
 #btnSub {
-    color: rgb(1, 247, 206);
+    color: black;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 1em;
-    background-image: linear-gradient(to right, #e96443 0%, #904e95 51%, #e96443 100%);
+    background-image: linear-gradient(to right, black 0%, azure 51%, black 100%);
 }
